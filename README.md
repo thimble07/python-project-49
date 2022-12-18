@@ -4,3 +4,4 @@
 Пример игры brain-even: https://asciinema.org/a/2WUfL4NUYhLek31E4LRInuqK6
 Пример игры brain-calc: https://asciinema.org/a/purUBCqmRiOSDyAGnf3AzSEWt
 Пример игры brain-gcd: https://asciinema.org/a/7BNiBTqPAgYqbJnf9T8mycwfZ
+Пример игры brain-progression: https://asciinema.org/a/3c541vsmYM1x26MkGBjVPdgY4
