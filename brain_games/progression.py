@@ -36,5 +36,6 @@ def game():
             print('Correct!')
             count = count + 1
         else:
-            return print(f"{answ} is wrong answer ;(. Correct answer was {chek}.\nLet's try again, {name}!")
+            print(f"{answ} is wrong answer ;(. Correct answer was {chek}.")
+            return print(f"Let's try again, {name}!")
     return print(f'Congratulations, {name}!')

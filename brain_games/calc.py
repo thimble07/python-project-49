@@ -42,7 +42,8 @@ def game():
         if int(answer) == result:
             print("Correct!")
         else:
-            return print(f"{answer}  is wrong answer ;(. Correct answer was {result}.\nLet's try again, {name}!")
+            print(f"{answer}  is wrong answer ;(. Correct answer was {result}.")
+            return print(f"Let's try again, {name}!")
 
         count += 1
     return print(f"Congratulations, {name}!")
