@@ -37,4 +37,4 @@ def game():
             count = count + 1
         else:
             return print(f"{answ} is wrong answer ;(. Correct answer was {chek}.\nLet's try again, {name}!")
-    return print(f'Congratulations, {name}')
+    return print(f'Congratulations, {name}!')
