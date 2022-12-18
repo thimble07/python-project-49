@@ -1,5 +1,6 @@
 import random
 import prompt
+import math
 
 
 # функция привествия!
@@ -21,26 +22,19 @@ def answer_user():
     return answer
 
 
-# функция проверки
-def chek_answer(x):
-    if x % 2 == 0:
-        return 'yes'
-    elif x % 2 != 0:
-        return 'no'
-
-
 def game():
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('Find the greatest common divisor of given numbers.')
     count = 1
 
     while count <= 3:
-        ques = question()
-        print(f'Question: {ques}')
+        number_one = question()
+        number_two = question()
+        print(f'Question: {number_one} {number_two}')
         answ = answer_user()
-        chek = chek_answer(ques)
-        if answ == chek:
+        chek = math.gcd(number_one, number_two)
+        if int(answ) == chek:
             print('Correct!')
             count = count + 1
         else:
