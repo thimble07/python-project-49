@@ -9,7 +9,6 @@ def welcome_user():
     return name
 
 
-# функция вопроса
 def question():
     n = random.randint(1, 100)
     return n
